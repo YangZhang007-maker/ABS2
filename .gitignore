@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment (contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Uploads (runtime data)
+uploads/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temp files
+.~*
+*.tmp
+
+# Logs
+*.log
+/tmp/
